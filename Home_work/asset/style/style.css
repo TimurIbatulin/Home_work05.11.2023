@@ -17,7 +17,7 @@
 }
 .one_block{
     justify-content: center;
-    width: 1600px;
+    width: 1fr;
     height: 764px;
     flex-shrink: 0;
     background: #F1E4E6;
