@@ -168,6 +168,32 @@ body{
 }
 .product_1{
    background-color: #F8F8F8;
+   position: relative;
+}
+.dark_card{
+    width: 360px;
+    height: 420px;
+    position: absolute;
+    background-color: rgba(58, 56, 56, 0.86);
+}
+.basket_dark{
+    width: 139px;
+    height: 44px;
+    color: #FFF;
+    border: 1px solid #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+    position: absolute;
+    background-color:inherit;
+    top: 180px;
+    left: 112px;
+}
+.op{
+    opacity: 0;
+}
+.op:hover {
+    opacity: 1;
 }
 .in{
     margin: 24px 16px;
