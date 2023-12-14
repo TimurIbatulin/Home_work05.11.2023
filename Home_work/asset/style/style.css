@@ -25,11 +25,68 @@ body{
 .menu_top{
     display: flex;
     gap: 25px;
+    position: relative;
 }
 .menu_top_in{
     display: flex;
     gap: 42px;
     
+}
+.open_menu{
+    opacity: 0;
+    width: 232px;
+    height: 634px;
+    background-color: #FFF;
+    position: absolute;
+    padding-left: 32px;
+    display: flex;
+    flex-direction: column;
+    top: 76px;
+    right: 0px;
+
+
+}
+.small_header:hover .open_menu{
+    opacity: 1;
+}
+.menu_top:hover .open_menu{
+    opacity: 1;
+}
+
+.text_1{
+    margin-top: 32px;
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+}
+.text_2{
+    margin: 24px 0px 0px 0px;
+    color: #F16D7F;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+.text_3{
+    margin-top: 0px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.text_4{
+    margin-top: 12px;
+    color: #6F6E6E;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+
 }
 .q{
     position: relative;
